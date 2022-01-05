@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Approve_thread</title>
+</head>
+<body>
+        <div class="header">    
+    </head><Title>Register</Title>
+        <div class="pic"><img src="logo.jpeg" alt="logo" width="80" height="80"></div>
+         
+        <head style="text-size-adjust:Large ;">College Forum<br>
+            Fr. Conceicao Rodrigues College of Engineering,Bandra,Mumbai</head>
+        </div>
+    <h1>Name:</h1><br>
+    <h2>Designation</h2><br>
+    <h3>Contents of Thread</h3><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <button type="button acc">Accept</button>
+    <button type="button rej">Reject</button>
+    
+</body>
+</html>

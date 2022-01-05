@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+.pic{
+    border-radius: 40%;
+    width: 80px;
+    height:80px;
+}
+.header{
+    padding: 8px;
+    display:flex;
+    text-align: left;
+    background-color: darkmagenta;
+    color: cornsilk;
+    font-size: larger;
+}
+.centre{
+    margin-left: auto;
+    margin-right: auto;
+}
+.table{
+    text-align: center;
+    -moz-text-size-adjust: auto;
+}
+.table,th,td{
+    border:1px solid black;
+}
+.table{
+    width: 1000%;
+}
+th{
+    height: 100%;
+}
+th,td{
+    padding: 50px;
+text-align: left;
+}
+.h1 {
+    color: purple;
+}

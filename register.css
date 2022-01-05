@@ -1,0 +1,38 @@
+.login {
+    width: 900px;
+    overflow: hidden;
+    margin: auto;
+    padding: 20px;
+    background: purple;
+    border-radius: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: purple;
+    padding: 40px;
+    font-size: 250%;
+}

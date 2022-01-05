@@ -1,0 +1,63 @@
+.navbar {
+    background-color: 800080;
+}
+
+.logo {}
+
+.topnav img {
+    border-radius: 50%;
+    max-width: 80px;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: purple;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Add an active class to highlight the current page */
+
+.topnav a.active {
+    background-color: purple;
+    color: white;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+.name {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    letter-spacing: 0.3em;
+    color: purple;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Save Web Form Data to Spreadsheets - Contact Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script>
+        function SubForm() {
+            $.ajax({
+                url: 'https://api.apispreadsheets.com/data/17693/',
+                type: 'post',
+                data: $("#myForm").serializeArray(),
+                success: function() {
+                    alert("Form Data Submitted :)")
+                },
+                error: function() {
+                    alert("There was an error :(")
+                }
+            });
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="container-fluid text-center" style="justify-content: center;">
+        <div style="background-color:#ffffff;width:100%;text-align:center;padding:7px;" style="background-color:chartreuse">
+            <h1 style="color: blue;">Form</h1>
+            <div style="background-color:#003ce2;width:20%;text-align:center;padding:2px;margin:0 auto ;color: white;" class="mt-5">
+                <form id="myForm" class="mt-5">
+                    <label>Title of research paper published</label>
+                    <br/>
+                    <input name="title" />
+                    <br/>
+                    <label>Journal of publication</label>
+                    <br/>
+                    <input name="journal" />
+                    <br/>
+                    <label>Year of publication</label>
+                    <br/>
+                    <input name="year" />
+                    <br/>
+                    <label>no. of citation</label>
+                    <br/>
+                    <input name="no." />
+                    <br/>
+                    <br/>
+                </form>
+                <button class="btn btn-md mb-5" style="background-color: white;color: blue;" onclick="SubForm()">Submit</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+
+</html>

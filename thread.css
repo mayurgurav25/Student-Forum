@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+}
+.pic{
+    border-radius: 50%;
+    width: 80px;
+    height:80px;
+}
+.header{
+    padding: 6-px;
+    display:flex;
+    text-align: left;
+    background-color: darkmagenta;
+    color: cornsilk;
+    font-size: larger;
+}
+.button{
+    text-align: center;
+}
